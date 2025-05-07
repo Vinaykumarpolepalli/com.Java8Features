@@ -33,7 +33,6 @@ class Feature9 {
 		// Collections.sort(a1,new TestComparator());
 		Comparator<Integer> c1 = (o1, o2) -> (o1 < o2) ? -1 : (o1 > o2) ? 1 : 0;
 		Collections.sort(a1,c1);
-
 		System.out.println("After:" + a1);
 	}
 
